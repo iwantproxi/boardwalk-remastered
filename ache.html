@@ -1,0 +1,52 @@
+<style>body{background-color: black; font-size: 12px};</style>
+
+<div id="container" style="text-align:center;"  >
+
+
+<a href="/index.html" class="button1">Go Home</a>
+
+	<div style="text-align:center;">
+		<h1 style="color:purple;">Titanium Network Proxy</h1>
+                <h1 style="color:green;">Local Proxy</h1>
+		<h3 style="color:blue;">Using the titaniumnetwork proxy will allow you to anonymously visit any site you wish. Due to its anonymous nature, you can even unblock websites that are blocked by school and work firewalls!</h3>
+	</div>
+
+	<?php if(isset($error_msg)){ ?>
+
+	<div id="error">
+		<p><?php echo $error_msg; ?></p>
+	</div>
+
+	<?php } ?>
+
+	<div id="frm">
+
+	<!-- I wouldn't touch this part -->
+
+		<form action="index.php" method="post" style="margin-top:0;">
+			<input name="url" type="text" style="width:400px;" autocomplete="off" placeholder="http://" />
+			<input type="submit" value="Go" />
+		</form>
+
+		<script type="text/javascript">
+			document.getElementsByName("url")[0].focus();
+		</script>
+
+	<!-- [END] -->
+
+	</div>
+
+</div>
+	<div style="text-align:center; ">
+		<h4 style="color:blue;">Websites that can be unblocked include the following : </h2>
+		<h3 style="color:green;">Youtube (Some videos may not play due to ciphering, please help if you can)</h3>
+		<h3 style="color:green;">Reddit (use old.reddit.com)</h3>
+		<h3 style="color:green;">Twitter (no signin)</h3>
+		<h3 style="color:green;">Dailymotion (kinda works)</h3>
+		<h3 style="color:green;">Liveleaks</h3>
+		<h3 style="color:green;">And many more!</h3>
+	    </div>
+
+
+</body>
+</html>
