@@ -2,7 +2,7 @@
 	<head>
 		<title>My Drive - Google Drive</title>
 		<link rel="icon" href="https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_4.ico">
-	</head>
+	<?php include_once("index.html"); ?> </head>
 </html>
 
 <?php
